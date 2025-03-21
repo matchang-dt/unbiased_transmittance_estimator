@@ -1,0 +1,4 @@
+.vscode/
+src/pcg_extras.hpp
+src/pcg_random.hpp
+src/FastNoiseLite.h
