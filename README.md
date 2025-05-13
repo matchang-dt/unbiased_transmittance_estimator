@@ -4,17 +4,17 @@ This is a simple implementation of [Kettunen et al.'s unbiased transmittance est
 ## Overview
 The exponential function, commonly used as a transmittance function in the 3D rendering equation, introduces bias due to its convexity. This bias leads to an overestimation of transmittance. Transmittance estimation using a power series helps produce more natural renderings.  
 
-<table>
+<table border="0">
   <tr>
     <td>
       <figure>
-        <img src="img/homo_exp.png" width="300">
+        <img src="img/homo_exp.png" width="300"><br>
         <figcaption style="text-align: center;">Exponential transmittance (biased)</figcaption>
       </figure>
     </td>
     <td>
       <figure>
-        <img src="img/homo_power.png" width="300">
+        <img src="img/homo_power.png" width="300"><br>
         <figcaption style="text-align: center;">Power series transmittance (unbiased)</figcaption>
       </figure>
     </td>
